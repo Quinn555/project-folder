@@ -1,0 +1,65 @@
+.recipe-wrap h5{
+    margin-left: 30px;
+}
+
+.list-of-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 32%;
+    
+}
+.large-left-mar{
+    margin-left: 50px;
+}
+.large-left-mar h3{
+    margin-left: 70px;
+}
+
+
+
+.review{
+    display: flex;
+    justify-content: center;
+}
+.review h2{
+    position: absolute;
+    font-family: bold;
+    font-size: xx-large;
+}
+.review img{
+    margin-top: 70px;
+}
+
+
+.smaller{
+    width: 60%;
+    background-color: rgb(183, 197, 210);
+    font-size: x-large;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+
+.flex-on{
+    display: flex;
+    margin-bottom: 100px;
+
+}
+ol{
+    width: 30%;
+}
+ol li{
+    margin-top: 15px;
+}
+ul h5{
+    margin: 20px 0 0 0;
+}
+
+.bottom-nav{
+    height: 100px;
+}

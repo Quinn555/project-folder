@@ -1,0 +1,104 @@
+/*Afects Everything*/
+.flex-row{
+    display: flex;
+    flex-direction: row; 
+}
+img{
+    position: relative;
+    width: 300px;
+    height: 200px;
+}
+.right-margin{
+    margin-right: 50px;
+}
+.left-mar{
+    margin-left: 20px;
+}
+
+
+/*Yellow top and bottom*/
+.top-yellow{
+    display: flex;
+    background-color: rgb(217, 168, 8);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.top-yellow a{
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.nav-img{
+    height: 100%;
+    justify-self: flex-start;
+}
+
+
+
+/*Top background img*/
+.big-top-img{
+    position: relative;
+}
+.big-top-img img{
+    width: 100%;
+    height: 520px;
+    margin-top: 5px;
+}
+.big-back-img-words{
+    display: flex;
+    justify-content: center;
+}
+.big-back-img-words h2{
+    position: absolute;
+    bottom: 30px;
+    background-color: aliceblue;
+}
+
+
+/*first set of images + their text*/
+.white-back-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-end;
+}
+.white-back p{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.white-back h4{
+    display: flex;
+    justify-content: center;
+}
+.first-white-back-img{
+    width: 300px;
+}
+.words-of-white-back{
+    width: 900px;
+    margin-top: 30px;
+}
+
+/*Second set of images with gray background*/
+.gray-back{
+    background-color: rgb(184, 203, 219);
+}
+.gray-back img{
+    width: 200px;
+    height: 200px;
+}
+.fix{
+    width: 200px;
+}
+.gray-back h4{
+    background-color: aliceblue;
+    height: 30px;
+    margin: 0 0 20px 0;
+}
+
+/*Bottom of page images*/
+.border-of-gray img{
+    border: 7px solid rgb(176, 194, 211);
+}
+
