@@ -8,13 +8,18 @@ img{
     width: 300px;
     height: 200px;
 }
-.right-margin{
-    margin-right: 50px;
-}
+
 .left-mar{
     margin-left: 20px;
 }
-
+body{
+    overflow-x: hidden;
+    margin: 0;
+    background-color: white;
+}
+html{
+    background-color: rgb(217, 168, 8);
+}
 
 /*Yellow top and bottom*/
 .top-yellow{
@@ -31,10 +36,11 @@ img{
 }
 .nav-img{
     height: 100%;
-    justify-self: flex-start;
 }
 
-
+.right-margin{
+    margin-right: 70px;
+}
 
 /*Top background img*/
 .big-top-img{
@@ -42,7 +48,7 @@ img{
 }
 .big-top-img img{
     width: 100%;
-    height: 520px;
+    height: 720px;
     margin-top: 5px;
 }
 .big-back-img-words{
@@ -58,12 +64,19 @@ img{
 
 
 /*first set of images + their text*/
+.white-back{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
 .white-back-img{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
+    width: 63%;
 }
 .white-back p{
     justify-content: flex-start;
@@ -73,12 +86,10 @@ img{
     display: flex;
     justify-content: center;
 }
-.first-white-back-img{
-    width: 300px;
-}
 .words-of-white-back{
-    width: 900px;
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /*Second set of images with gray background*/
@@ -86,19 +97,26 @@ img{
     background-color: rgb(184, 203, 219);
 }
 .gray-back img{
-    width: 200px;
+    width: 220px;
     height: 200px;
 }
 .fix{
-    width: 200px;
+    width: 216px;
+}
+.bigger img{
+    width: 216px;
 }
 .gray-back h4{
     background-color: aliceblue;
     height: 30px;
     margin: 0 0 20px 0;
 }
+.less-mar{
+    margin-top: 0;
+}
 
 /*Bottom of page images*/
 .border-of-gray img{
     border: 7px solid rgb(176, 194, 211);
+    width: 250px;
 }

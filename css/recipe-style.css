@@ -1,23 +1,12 @@
-.recipe-wrap h5{
-    margin-left: 30px;
-}
-
 .list-of-items{
-    display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    width: 32%;
-    
 }
-.large-left-mar{
-    margin-left: 50px;
+.recipe-wrap{
+    width: 40%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
 }
-.large-left-mar h3{
-    margin-left: 70px;
-}
-
-
-
 .review{
     display: flex;
     justify-content: center;
@@ -30,10 +19,18 @@
 .review img{
     margin-top: 70px;
 }
-
-
+.time{
+    display: flex;
+}
+.big-img-recipe{
+    margin: 0;
+    height: 700px;
+}
+.big-img-recipe img{
+    margin: 0;
+    height: 100%;
+}
 .smaller{
-    width: 60%;
     background-color: rgb(183, 197, 210);
     font-size: x-large;
 }
@@ -41,9 +38,15 @@
     display: flex;
     justify-content: center;
     align-content: center;
-
-    
 }
+.center p{
+    width: 60%;
+    background-color: rgb(236, 236, 237);
+}
+.margin-left{
+    margin-left: 180px;
+}
+
 
 .flex-on{
     display: flex;
@@ -62,4 +65,50 @@ ul h5{
 
 .bottom-nav{
     height: 100px;
+}
+
+
+/*Video alinment*/
+.div-video{
+    margin-right: 50px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.reletive-ul{
+    position: relative;
+}
+iframe{
+    width: 350px;
+    height: 300px;
+}
+
+.longer{
+    height: 210px;
+    width: 60%;
+}
+
+
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center-time{
+    display: flex;
+    justify-content: center;
+}
+
+
+.time-things{
+    display: flex;
+    justify-content: center;
+}
+
+.gray-fix{
+    background-color: rgb(236, 236, 237);
+    width: 60%;
 }
